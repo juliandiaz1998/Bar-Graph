@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+   
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link href="css/styles.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	
+
+
+    <title>Hello, world!</title>
+  </head>
+  
+  
+  <body>
+  
+		<nav class="navbar navbar-dark bg-dark"><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="navbar-brand text-left" id="menu"></div>
+		</nav>
+  
+		<div class="card mx-auto" style="max-width: 75%;">
+				
+				<div class="card-header bg-" style="background-color: #dfd3e0;">
+					<div class="row">
+						<div class="col-11 text-justify" ><b>Resumen en grafico de barras!</b></div>						
+						<div class="col-1 text-right"><button class="btn btn-outline-success" type="submit" id="ampliar"><i class="fa fa-compress" aria-hidden="true"></i></button></div>
+					</div>
+				</div>
+
+				<!-- Grafico de barras -->
+			<canvas id="bar-chart-grouped"   height="80"></canvas>
+			
+		</div>
+		
+		<div id="tabla">
+			  <div class="card mx-auto" style="max-width: 75%;">
+					
+					<div class="card-header bg-primary">
+						<div class="card-title"><b>Tabla</b></div>
+						<div class="card-subtitle">**Esta información es el resultado de una consulta en la base de datos de prueba NorthWind de Access</div>
+					</div>
+					
+					<table class="table table-hover" id="tableContent"></table>
+												
+					</div>
+					
+					
+					<div class="card mx-auto" style="max-width: 75%;">
+						<!-- <div class="btn-group" role="group" aria-label="Basic example"> -->
+						  <button type="button" class="btn btn-success" id="mostrarTabla"><b>Consultar Ordenes!</b></button>
+						  <button type="button" class="btn btn-secondary">Tabla 2</button>
+						  <button type="button" class="btn btn-secondary">Tabla 3</button>
+						<!-- </div> -->
+					</div>
+						
+			  </div>
+			 </div>
+  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/configuracion.js"></script>
+    <script src="js/funciones.js"></script>
+	<script src="js/jquery.canvasjs.min.js"></script>
+	<script src="js/events.js"></script>
+	<script src="js/chart.min.js"></script>
+	<script src="js/graph.js"></script>
+	<script src="js/chart.js"></script>
+	
+  </body>
+</html>
